@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "title": "Kurpitsapasta",
+    "author": "Jenni",
+    "url": "https://liemessa.fi/2022/10/kurpitsapasta-2/",
+    "likes": 3
+}
