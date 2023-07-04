@@ -7,4 +7,12 @@ const blogSchema = mongoose.Schema({
   likes: Number
 })
 
+blogSchema.set('toJSON', {
+  transform: (document, retunedObject) => {
+    retunedObject.id = retunedObject._id.toString()
+    delete retunedObject._id
+    delete retunedObject.__v
+  }
+})
+
 module.exports = mongoose.model('Blog', blogSchema)
