@@ -2,8 +2,8 @@ POST http://localhost:3003/api/blogs
 Content-Type: application/json
 
 {
-    "title": "Parhaat vinkit Pariisiin – matkaopas täydelliseen lomaan",
-    "author": "Veera Bianca",
-    "url": "https://veerabianca.com/parhaat-vinkit-pariisiin-matkaopas/",
+    "title": "Kurpitsapasta",
+    "author": "Jenni",
+    "url": "https://liemessa.fi/2022/10/kurpitsapasta-2/",
     "likes": 2
 }
