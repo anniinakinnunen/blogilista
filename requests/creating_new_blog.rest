@@ -1,9 +1,10 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImtvbG9uZW4iLCJpZCI6IjY0YTY4MWM1NmJjZGM1MWVlY2M2ZWMwOCIsImlhdCI6MTY4ODY0MDc3M30.pQ7Zt-tS5DtUu4RmybJGHHAQPT8h6h0OPWbfPh57d_Y
 
 {
-    "title": "Kurpitsapasta",
-    "author": "Jenni",
-    "url": "https://liemessa.fi/2022/10/kurpitsapasta-2/",
+    "title": "Mainio peruspaita",
+    "author": "Saara",
+    "url": "https://henkinenmummo.com/2022/04/03/mainio-peruspaita/",
     "likes": 2
 }
